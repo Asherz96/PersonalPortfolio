@@ -1,4 +1,105 @@
-h1{
-    color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+  }
 
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Hind', sans-serif;
+  }
+ 
+  h1{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+
+}
+h3{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;  
+    font-family: 'Hind', sans-serif;
+}
+
+h4{
+    font-size: 1rem;
+    Color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Hind', sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+
+
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 128, 147);
+}
+.nav-list{
+    display: flex;
+    margin-right: 1rem;
+    list-style-type: none;
+    color: white;
+    
+}
+.nav-list a {
+display: block;
+font-size: 1.5rem;
+padding: 2rem;
+
+
+}
+.nav-list a:hover {
+  background-color: lightpink;
+}
+
+.welcome-section{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-color: lightpink;
+  border-top: solid thin white;
+
+}
+
+.projects-section{
+    text-align: center;
+  padding: 10rem 2rem;
+  background-color: rgb(255, 203, 211);
+  border-top: solid thin white;
+}
+
+.contact-section{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(245, 164, 176);
+  border-top: solid thin white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: rgb(255, 128, 147);
+    border-top: solid thin white;
 }
