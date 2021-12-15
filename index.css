@@ -56,43 +56,54 @@ ul{
 }
 .nav-list a {
 display: block;
-font-size: 1.5rem;
-padding: 2rem;
+padding: 1.5rem;
+font-size: x-large;
 
 
 }
 .nav-list a:hover {
-  background-color: lightpink;
+  background-color: rgb(255, 162, 176);
 }
 
-.welcome-section{
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  width: 100%;
+#welcome-section{
   background-color: lightpink;
-  border-top: solid thin white;
+  height: 100vh;
 
 }
 
-.projects-section{
+#projects-section{
     text-align: center;
   padding: 10rem 2rem;
   background-color: rgb(255, 203, 211);
+  
+}
+.projects-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+background-color: rgb(223, 113, 168);
+border-top: solid thin white;
+}
+
+.project-tile{
+  margin: 1rem;
+
+}
+
+ figcaption{
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+#contact{
+  height: 30vh;
+  background-color: rgb(245, 164, 176);
   border-top: solid thin white;
 }
 
 .contact-section{
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  padding: 20px;
-  background-color: rgb(245, 164, 176);
+  background-color: lightpink;
   border-top: solid thin white;
 }
 
